@@ -77,7 +77,6 @@ searchBtn.addEventListener("click", function () {
 
     const countryName = searchInput.value
 
-
     if (countryName == '') {
         Swal.fire({
             title: "Empty Input",
